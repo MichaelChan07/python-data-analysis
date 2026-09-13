@@ -19,10 +19,18 @@ lanjutan dari proyek Excel Data Analysis untuk dataset yang sama (Superstore).
 - Penanganan missing values (`isna()`, `fillna()`)
 - Groupby multi-kolom & multi-agregasi (`.agg()`)
 
+### Minggu 8 — Data Visualization (Matplotlib & Seaborn)
+- Subplot grid 2x2: Sales by Category per Region
+- Boxplot: deteksi outlier Profit by Category
+- Correlation heatmap: verifikasi statistik hubungan Discount-Profit
+  (hasil: korelasi lemah -0,22 — mengoreksi asumsi di laporan Excel 
+  yang awalnya menyiratkan hubungan kuat)
+- Dashboard statis multi-chart
+
 ## Dataset
 Sample Superstore Dataset (Kaggle) — sama dengan yang digunakan di 
 [excel-data-analysis](https://github.com/MichaelChan07/excel-data-analysis), 
 untuk memastikan hasil analisis konsisten lintas tool (Excel vs Python).
 
 ## Tools
-Python, pandas, Kaggle Notebook
+Python, pandas, matplotlib, seaborn, Kaggle Notebook
