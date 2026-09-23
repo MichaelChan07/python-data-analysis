@@ -27,6 +27,29 @@ lanjutan dari proyek Excel Data Analysis untuk dataset yang sama (Superstore).
   yang awalnya menyiratkan hubungan kuat)
 - Dashboard statis multi-chart
 
+### Minggu 9 — EDA End-to-End (Online Retail Dataset)
+Studi kasus analisis mandiri (bukan instruksi step-by-step) pada dataset baru 
+(Online Retail Dataset, UK-based e-commerce, ~540rb baris) untuk menguji skill 
+EDA di luar dataset Superstore yang sudah familiar.
+
+**Rumusan masalah:**
+1. Apa 5 negara yang melakukan transaksi dengan nominal terbesar?
+2. Kapan waktu terjadinya transaksi paling ramai?
+3. Apa saja barang/produk yang paling banyak dibeli (TOP 10)?
+4. Apa saja barang/produk yang paling bayan direfund (TOP 5)?
+
+**Proses:**
+- Data Cleaning: pemisahan transaksi cancelled/refund (InvoiceNo berawalan "C") 
+  dari transaksi sukses
+- EDA Univariate: distribusi Quantity & UnitPrice, top negara, top produk, pola 
+  transaksi per bulan & hari
+- EDA Bivariate: revenue per negara, tren waktu vs nominal transaksi
+- Artikel non-teknis merangkum temuan untuk audiens umum
+
+**Insight tambahan (di luar rumusan masalah awal):** ditemukan pola transaksi 
+cancelled/refund yang ditandai kode "C" pada InvoiceNo — dianalisis terpisah 
+sebagai temuan bonus.
+
 ## Dataset
 Sample Superstore Dataset (Kaggle) — sama dengan yang digunakan di 
 [excel-data-analysis](https://github.com/MichaelChan07/excel-data-analysis), 
